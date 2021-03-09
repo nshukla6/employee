@@ -34,3 +34,21 @@
     justify-content: flex-end;
     padding-right: 10px;
 }
+.employees_details{
+    position:fixed;
+    top:50vh;
+    overflow:scroll;
+    height:310px;
+}
+.table_header{
+    position:fixed;
+    top:47vh;
+    left:41vw;
+}
+.table_data{
+    padding:5px;
+    font-size:1.2rem;
+}
+tr{
+    border-bottom: 1px solid lightgray;
+}

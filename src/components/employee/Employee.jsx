@@ -136,10 +136,10 @@ const Employee = () => {
                     <tbody>
                         {
                             employees.map(employee => <tr key={employee.name}>
-                                <td>{employee.name}</td>
-                                <td>{employee.type}</td>
-                                <td>{employee.date}</td>
-                                <td>{employee.background}</td>
+                                <td className="table_data">{employee.name}</td>
+                                <td className="table_data">{employee.type}</td>
+                                <td className="table_data">{employee.date}</td>
+                                <td className="table_data">{employee.background}</td>
                             </tr>)
                         }
                     </tbody>
